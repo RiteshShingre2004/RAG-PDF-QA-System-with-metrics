@@ -1,0 +1,60 @@
+# 📄 RAG PDF Question Answering System with Evaluation Metrics
+
+An **industry-grade Retrieval-Augmented Generation (RAG)** system that allows users to ask natural language questions over PDF documents and receive **context-aware, grounded answers**, along with **automatic evaluation metrics**.
+
+---
+
+🚀 Project Overview
+
+This project implements a **PDF-based Question Answering system** using a **Retrieval-Augmented Generation (RAG) pipeline**.  
+Relevant document chunks are retrieved from PDFs and passed to a **Gemini LLM** to generate accurate answers while tracking evaluation metrics.
+
+This project demonstrates **real-world RAG system design, observability, and evaluation**, suitable for enterprise AI applications.
+
+---
+
+🧠 Key Features
+
+- 📂 PDF document ingestion
+- 🔍 Semantic document retrieval (Top-K)
+- 🤖 LLM-powered answer generation (Gemini)
+- 📊 Automatic evaluation metrics
+- 🧾 Query & response trace logging
+- 🧱 Modular, extensible pipeline
+
+---
+
+---
+
+## 📌 Technologies Used
+
+- Python
+- Jupyter Notebook
+- Google Gemini LLM
+- Vector-based retrieval
+- NumPy, Pandas
+- CSV logging
+- PDF parsing
+
+---
+
+📊 Evaluation Metrics
+
+| Metric | Description |
+|------|------------|
+| Context Relevance | Measures relevance of retrieved context to query |
+| Faithfulness | Ensures answer is grounded in retrieved context |
+| Completeness | Checks if the answer sufficiently covers the query |
+
+These metrics help identify hallucinations and improve answer reliability.
+
+---
+
+---
+
+⚙️ Installation & Setup
+
+ Clone the repository
+```bash
+git clone https://github.com/RiteshShingre2004/RAG-PDF-QA-System-with-metrics.git
+cd RAG-PDF-QA-System-with-metrics
