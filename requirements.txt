@@ -1,0 +1,7 @@
+langchain
+langchain-community
+google-generativeai
+faiss-cpu
+pypdf
+numpy
+pandas

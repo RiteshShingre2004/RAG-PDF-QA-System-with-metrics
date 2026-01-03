@@ -1,0 +1,21 @@
+rag-pdf-qa/
+│
+├── data/
+│   └── sample.pdf
+│
+├── notebooks/
+│   └── rag_pipeline.ipynb
+│
+├── src/
+│   ├── ingest.py
+│   ├── retriever.py
+│   ├── qa_chain.py
+│   ├── logger.py
+│   └── evaluation.py
+│
+├── logs/
+│   └── logs.csv
+│
+├── requirements.txt
+├── README.md
+├── .gitignore
